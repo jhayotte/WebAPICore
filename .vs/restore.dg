@@ -1,0 +1,13 @@
+#:C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Infrastructure\WebApiCore.Infrastructure.xproj
+C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Infrastructure\WebApiCore.Infrastructure.xproj|C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Entities\WebApiCore.Entities.xproj
+#:C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore\WebApiCore.xproj
+C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore\WebApiCore.xproj|C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Infrastructure\WebApiCore.Infrastructure.xproj
+C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore\WebApiCore.xproj|C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Repositories\WebApiCore.Repositories.xproj
+C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Infrastructure\WebApiCore.Infrastructure.xproj|C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Entities\WebApiCore.Entities.xproj
+C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Repositories\WebApiCore.Repositories.xproj|C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Entities\WebApiCore.Entities.xproj
+C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Repositories\WebApiCore.Repositories.xproj|C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Infrastructure\WebApiCore.Infrastructure.xproj
+#:C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Repositories\WebApiCore.Repositories.xproj
+C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Repositories\WebApiCore.Repositories.xproj|C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Entities\WebApiCore.Entities.xproj
+C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Repositories\WebApiCore.Repositories.xproj|C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Infrastructure\WebApiCore.Infrastructure.xproj
+C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Infrastructure\WebApiCore.Infrastructure.xproj|C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Entities\WebApiCore.Entities.xproj
+#:C:\Ricardo\dotnetCore\WebApiCore\WebApiCore\src\WebApiCore.Entities\WebApiCore.Entities.xproj
