@@ -13,6 +13,7 @@ addons:
 before_install:
   - if test "$TRAVIS_OS_NAME" == "osx"; then brew update; brew install icu4c; brew install openssl; ln -s /usr/local/opt/openssl/lib/libcrypto.1.0.0.dylib /usr/local/lib/; ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib/; fi
   - chmod +x build.sh
+  - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 mono:
   - 4.2.3
 os:
@@ -22,11 +23,19 @@ osx_image: xcode7.1
 branches:
   only:
     - master
+services:  
+    - docker
 install:
   - export DOTNET_INSTALL_DIR="$PWD/.dotnetcli"
   - curl -sSL https://raw.githubusercontent.com/dotnet/cli/rel/1.0.0/scripts/obtain/dotnet-install.sh | bash /dev/stdin --version "$CLI_VERSION" --install-dir "$DOTNET_INSTALL_DIR"
   - export PATH="$DOTNET_INSTALL_DIR:$PATH"
 script:
   - ./build.sh
+  #build the image
+  - docker build --no-cache -t jhayotte/webapicore .
+  #tag the build
+  - docker tag jhayotte/webapicore:latest jhayotte/webapicore:v1
+  #push the image to the repository
+  - docker push jhayotte/webapicore
 env:
   - CLI_VERSION=latest
