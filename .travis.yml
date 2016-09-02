@@ -21,7 +21,7 @@ os:
 branches:
   only:
     - master
-services:  
+services:
     - docker
 install:
   - export DOTNET_INSTALL_DIR="$PWD/.dotnetcli"
