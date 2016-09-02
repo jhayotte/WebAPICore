@@ -10,6 +10,6 @@ WORKDIR /app/WebApiCore
 
 RUN ["dotnet", "build"]
 
-EXPOSE 1253
+EXPOSE 5000
 
 ENTRYPOINT ["dotnet", "run"]
