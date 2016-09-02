@@ -1,6 +1,6 @@
 FROM microsoft/dotnet:latest
 
-COPY /src/WebApiCore /app
+COPY /src /app
 
 WORKDIR /app
 
