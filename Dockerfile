@@ -6,6 +6,8 @@ WORKDIR /app
 
 RUN ["dotnet", "restore"]
 
+WORKDIR /app/WebApiCore
+
 RUN ["dotnet", "build"]
 
 EXPOSE 1253
