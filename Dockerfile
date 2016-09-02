@@ -4,5 +4,5 @@ COPY ./src/WebApiCore/project.json /app/
 COPY . /app
 WORKDIR /app
 RUN ["dotnet", "restore"]
-#RUN ["dotnet", "build"]
+RUN ["dotnet", "build"]
 
