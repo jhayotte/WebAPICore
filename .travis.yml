@@ -30,7 +30,7 @@ install:
 script:
   - ./build.sh
   #build the image
-  - docker build --no-cache -t jhayotte/webapicore .
+  - docker build --no-cache -t jhayotte/webapicore /home/travis/build/jhayotte/WebAPICore/src/WebApiCore
   #tag the build
   - docker tag jhayotte/webapicore:latest jhayotte/webapicore:v1
   #push the image to the repository
