@@ -9,9 +9,9 @@ if [ -d $artifactsFolder ]; then
   rm -R $artifactsFolder
 fi
 
-dotnet restore
+#dotnet restore
 
-revision=${TRAVIS_JOB_ID:=1}
-revision=$(printf "%04d" $revision)
+#revision=${TRAVIS_JOB_ID:=1}
+#revision=$(printf "%04d" $revision)
 
-dotnet pack /home/travis/build/jhayotte/WebAPICore/src/WebApiCore -c Release -o ./artifacts --version-suffix=$revision
+#dotnet pack /home/travis/build/jhayotte/WebAPICore/src/WebApiCore -c Release -o ./artifacts --version-suffix=$revision
