@@ -48,3 +48,4 @@ deploy:
   env: "dev"
   region: "eu-west-1"
   bucket_name: "$AWS_BUCKET_NAME"
+  bucket_path: "$AWS_BUCKET_PATH"
