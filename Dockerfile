@@ -10,7 +10,7 @@ WORKDIR /app/WebApiCore
 
 RUN ["dotnet", "build"]
 
-EXPOSE 5000/tcp
-ENV ASPNETCORE_URLS http://*:5000
+EXPOSE 15000/tcp
+ENV ASPNETCORE_URLS http://*:15000
 
 ENTRYPOINT ["dotnet", "run"]
