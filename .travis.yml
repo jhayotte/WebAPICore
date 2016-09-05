@@ -47,3 +47,4 @@ deploy:
   app: "$AWS_APP"
   env: "dev"
   region: "eu-west-1"
+  bucket_name: "$AWS_BUCKET_NAME"
