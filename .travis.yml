@@ -45,7 +45,7 @@ deploy:
   access_key_id: "$AWS_ACCESS_KEY_ID"
   secret_access_key: "$AWS_SECRET_ACCESS_KEY"
   app: "$AWS_APP"
-  env: "$AWS_APP_DEV"
+  env: "$AWS_APP_ENV"
   region: "eu-west-1"
   bucket_name: "$AWS_BUCKET_NAME"
   bucket_path: "$AWS_BUCKET_PATH"
