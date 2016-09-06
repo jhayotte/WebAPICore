@@ -21,7 +21,8 @@
     "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.0.0",
     "WebApiCore.Infrastructure": "1.0.0-*",
     "WebApiCore.Repositories": "1.0.0-*",
-    "Microsoft.AspNetCore.Mvc.WebApiCompatShim": "1.0.0"
+    "Microsoft.AspNetCore.Mvc.WebApiCompatShim": "1.0.0",
+    "Swashbuckle": "6.0.0-beta902"
   },
 
     "tools": {

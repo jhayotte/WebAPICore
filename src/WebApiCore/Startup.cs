@@ -33,6 +33,9 @@ namespace WebApiCore
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
 
+            //Inject an implementation of ISwaggerProvider with defaulted settings applied
+            services.AddSwaggerGen();
+
             services.AddMvc();
         }
 
@@ -47,6 +50,12 @@ namespace WebApiCore
             app.UseApplicationInsightsExceptionTelemetry();
 
             app.UseMvc();
+
+            // Enable middleware to serve generated Swagger as a JSON endpoint
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui assets (HTML, JS, CSS etc.)
+            app.UseSwaggerUi();
         }
     }
 }
